@@ -1,8 +1,8 @@
 {
-    "name": "nord-light",
-    "displayName": "Nord Light",
-    "description": "Nord Light color theme",
-    "repository": "https://github.com/huytd/vscode-nord-light",
+    "name": "nordern-light",
+    "displayName": "Nordern Light",
+    "description": "Nordern Light color theme",
+    "repository": "",
     "icon": "icon.png",
     "version": "0.1.1",
     "publisher": "huytd",
@@ -15,7 +15,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Nord Light",
+                "label": "Nordern Light",
                 "uiTheme": "vs",
                 "path": "./themes/Nord Light-color-theme.json"
             },
