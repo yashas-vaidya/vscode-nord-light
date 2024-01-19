@@ -2,66 +2,72 @@
   "name": "Nord Light Color Theme",
   "type": "light",
   "colors": {
-    "activityBar.activeBorder": "#f9826c",
-    "activityBar.background": "#d8dee9",
-    "activityBar.border": "#e1e4e8",
-    "activityBar.foreground": "#2f363d",
-    "activityBar.inactiveForeground": "#959da5",
-    "activityBarBadge.background": "#2a85cf",
-    "activityBarBadge.foreground": "#ffffff",
-    "badge.background": "#dbedff",
-    "badge.foreground": "#005cc5",
-    "breadcrumb.activeSelectionForeground": "#586069",
-    "breadcrumb.focusForeground": "#2f363d",
-    "breadcrumb.foreground": "#6a737d",
-    "breadcrumbPicker.background": "#fafbfc",
-    "button.background": "#159739",
-    "button.foreground": "#ffffff",
-    "button.hoverBackground": "#138934",
-    "checkbox.background": "#fafbfc",
-    "checkbox.border": "#d1d5da",
-    "debugToolBar.background": "#ffffff",
-    "descriptionForeground": "#6a737d",
-    "diffEditor.insertedTextBackground": "#34d05822",
-    "diffEditor.removedTextBackground": "#d73a4922",
-    "dropdown.background": "#fafbfc",
-    "dropdown.border": "#e1e4e8",
-    "dropdown.foreground": "#2f363d",
-    "dropdown.listBackground": "#ffffff",
-    "editor.background": "#eceff4",
-    "editor.findMatchBackground": "#ffdf5d",
-    "editor.findMatchHighlightBackground": "#ffdf5d66",
-    "editor.focusedStackFrameHighlightBackground": "#fff5b1",
-    "editor.foldBackground": "#fafbfc",
-    "editor.foreground": "#24292e",
-    "editor.inactiveSelectionBackground": "#0366d611",
-    "editor.lineHighlightBackground": "#f6f8fa",
-    "editor.selectionBackground": "#0366d625",
-    "editor.selectionHighlightBackground": "#34d05840",
-    "editor.selectionHighlightBorder": "#34d05800",
-    "editor.stackFrameHighlightBackground": "#fffbdd",
-    "editor.wordHighlightBackground": "#34d05800",
-    "editor.wordHighlightBorder": "#24943e99",
-    "editor.wordHighlightStrongBackground": "#34d05800",
-    "editor.wordHighlightStrongBorder": "#24943e50",
-    "editorBracketMatch.background": "#34d05840",
-    "editorBracketMatch.border": "#34d05800",
-    "editorCursor.foreground": "#044289",
-    "editorGroup.border": "#e1e4e8",
-    "editorGroup.dropBackground": "#e5e9f0",
-    "editorGroup.emptyBackground": "#e5e9f0",
-    "editorGroupHeader.noTabsBackground": "#e5e9f0",
-    "editorGroupHeader.tabsBackground": "#e5e9f0",
-    "editorGroupHeader.tabsBorder": "#e1e4e8",
-    "editorGutter.addedBackground": "#28a745",
-    "editorGutter.deletedBackground": "#d73a49",
-    "editorGutter.modifiedBackground": "#2188ff",
-    "editorIndentGuide.activeBackground": "#d7dbe0",
-    "editorIndentGuide.background": "#eff2f6",
-    "editorLineNumber.activeForeground": "#24292e",
-    "editorLineNumber.foreground": "#1b1f234d",
-    "editorOverviewRuler.border": "#ffffff",
-    "editorWhitespace.foreground": "#d1d5da",
+    "activityBar.background": "#ECEFF4", // nord6 for slightly darker contrast against tabs
+    "sideBar.background": "#D8DEE9", // nord4 for darker sidebar
+    "editor.background": "#E5E9F0", // nord5 for a lighter editor background
+    "statusBar.background": "#D8DEE9", // nord4 for status bar to match the sidebar
+    "tab.activeBackground": "#ECEFF4", // nord6 for active tab
+    "tab.inactiveBackground": "#E5E9F0", // nord5 for inactive tabs to distinguish from active tab
+    "tab.inactiveForeground": "#4C566A", // nord3 for readable text on inactive tabs
+    "editor.foreground": "#434C5E", // nord2 for darker text for better readability
+    "editorGroupHeader.tabsBackground": "#D8DEE9", // nord4 for tabs header
+    "editorLineNumber.foreground": "#4C566A", // nord3 for contrast in line numbers
+    "editor.lineHighlightBackground": "#BF616A", // nord11 for line highlight for bold emphasis
+    "editor.selectionBackground": "#B48EAD", // nord15 for selection
+    "editorIndentGuide.background1": "#D8DEE9", // nord4 for indent guides
+    "editorIndentGuide.activeBackground1": "#ECEFF4", // nord6 for active indent guides
+    "editorWhitespace.foreground": "#E5E9F0", // nord5 for whitespace characters
+    "editorBracketMatch.background": "#D8DEE9", // nord4 for matched brackets
+    "editorBracketMatch.border": "#ECEFF4", // nord6 for matched brackets border
+    // uses original Nord light colors from here
+    "activityBar.activeBorder": "#D08770", // nord12: Aurora
+    "activityBar.border": "#E5E9F0", // nord4: Snow Storm
+    "activityBar.foreground": "#4C566A", // nord3: Polar Night
+    "activityBar.inactiveForeground": "#D8DEE9", // nord4: Snow Storm
+    "activityBarBadge.background": "#5E81AC", // nord10: Frost
+    "activityBarBadge.foreground": "#ECEFF4", // nord6: Polar Night
+    "badge.background": "#81A1C1", // nord9: Frost
+    "badge.foreground": "#5E81AC", // nord10: Frost
+    "breadcrumb.activeSelectionForeground": "#ECEFF4", // nord6: Polar Night
+    "breadcrumb.focusForeground": "#ECEFF4", // nord6: Polar Night
+    "breadcrumb.foreground": "#E5E9F0", // nord4: Snow Storm
+    "breadcrumbPicker.background": "#2E3440", // nord0: Polar Night (dark background)
+    "button.background": "#A3BE8C", // nord14: Aurora
+    "button.foreground": "#2E3440", // nord0: Polar Night
+    "button.hoverBackground": "#B48EAD", // nord15: Aurora
+    "checkbox.background": "#2E3440", // nord0: Polar Night (dark background)
+    "checkbox.border": "#D8DEE9", // nord4: Snow Storm
+    "debugToolBar.background": "#ECEFF4", // nord6: Polar Night
+    "descriptionForeground": "#E5E9F0", // nord4: Snow Storm
+    "diffEditor.insertedTextBackground": "#A3BE8C22", // nord14: Aurora
+    "diffEditor.removedTextBackground": "#BF616A22", // nord11: Aurora
+    "dropdown.background": "#2E3440", // nord0: Polar Night (dark background)
+    "dropdown.border": "#E5E9F0", // nord4: Snow Storm
+    "dropdown.foreground": "#4C566A", // nord3: Polar Night
+    "dropdown.listBackground": "#ECEFF4", // nord6: Polar Night
+    "editor.findMatchBackground": "#EBCB8B", // nord13: Aurora
+    "editor.findMatchHighlightBackground": "#EBCB8B66", // nord13: Aurora
+    "editor.focusedStackFrameHighlightBackground": "#E5E9F0", // nord4: Snow Storm
+    "editor.foldBackground": "#2E344022", // nord0: Polar Night (dark background)
+    "editor.inactiveSelectionBackground": "#81A1C111", // nord9: Frost
+    "editor.selectionHighlightBackground": "#A3BE8C40", // nord14: Aurora
+    "editor.selectionHighlightBorder": "#A3BE8C00", // nord14: Aurora
+    "editor.stackFrameHighlightBackground": "#ECEFF4", // nord6: Polar Night
+    "editor.wordHighlightBackground": "#81A1C100", // nord9: Frost
+    "editor.wordHighlightBorder": "#88C0D099", // nord8: Frost
+    "editor.wordHighlightStrongBackground": "#81A1C100", // nord9: Frost
+    "editor.wordHighlightStrongBorder": "#88C0D050", // nord8: Frost
+    "editorCursor.foreground": "#81A1C1", // nord9: Frost
+    "editorGroup.border": "#E5E9F0", // nord4: Snow Storm
+    "editorGroup.dropBackground": "#E5E9F0", // nord4: Snow Storm
+    "editorGroup.emptyBackground": "#E5E9F0", // nord4: Snow Storm
+    "editorGroupHeader.noTabsBackground": "#E5E9F0", // nord4: Snow Storm
+    "editorGroupHeader.tabsBorder": "#E5E9F0", // nord4: Snow Storm
+    "editorGutter.addedBackground": "#A3BE8C", // nord14: Aurora
+    "editorGutter.deletedBackground": "#BF616A", // nord11: Aurora
+    "editorGutter.modifiedBackground": "#81A1C1", // nord9: Frost
+    "editorLineNumber.activeForeground": "#3B4252", // nord1: Polar Night
+    "editorOverviewRuler.border": "#ECEFF4", // nord6: Polar Night    
     "editorWidget.background": "#f6f8fa",
     "errorForeground": "#cb2431",
     "focusBorder": "#2188ff",
@@ -73,7 +79,6 @@
     "gitDecoration.modifiedResourceForeground": "#005cc5",
     "gitDecoration.submoduleResourceForeground": "#959da5",
     "gitDecoration.untrackedResourceForeground": "#28a745",
-    "inlineTitleBar.background": "#e5e9f0",
     "input.background": "#fafbfc",
     "input.border": "#e1e4e8",
     "input.foreground": "#2f363d",
@@ -111,14 +116,12 @@
     "scrollbarSlider.hoverBackground": "#959da544",
     "settings.headerForeground": "#2f363d",
     "settings.modifiedItemIndicator": "#2188ff",
-    "sideBar.background": "#e5e9f0",
     "sideBar.border": "#d8dee9",
     "sideBar.foreground": "#586069",
     "sideBarSectionHeader.background": "#d8dee9",
     "sideBarSectionHeader.border": "#e1e4e8",
     "sideBarSectionHeader.foreground": "#2f363d",
     "sideBarTitle.foreground": "#2f363d",
-    "statusBar.background": "#e5e9f0",
     "statusBar.border": "#e1e4e8",
     "statusBar.debuggingBackground": "#f9826c",
     "statusBar.debuggingForeground": "#ffffff",
@@ -127,14 +130,11 @@
     "statusBarItem.prominentBackground": "#e8eaed",
     "statusBarItem.remoteBackground": "#e5e9f0",
     "statusBarItem.remoteForeground": "#000000",
-    "tab.activeBackground": "#eceff4",
     "tab.activeBorder": "#ffffff",
     "tab.activeBorderTop": "#f9826c",
     "tab.activeForeground": "#2f363d",
     "tab.border": "#d8dee9",
     "tab.hoverBackground": "#ffffff",
-    "tab.inactiveBackground": "#e5e9f0",
-    "tab.inactiveForeground": "#6a737d",
     "tab.unfocusedActiveBorder": "#ffffff",
     "tab.unfocusedActiveBorderTop": "#e1e4e8",
     "tab.unfocusedHoverBackground": "#ffffff",
@@ -142,8 +142,8 @@
     "textBlockQuote.background": "#fafbfc",
     "textBlockQuote.border": "#e1e4e8",
     "textCodeBlock.background": "#f6f8fa",
-		"textLink.activeForeground": "#032F62",
-		"textLink.foreground": "#032F62",
+    "textLink.activeForeground": "#032F62",
+    "textLink.foreground": "#032F62",
     "textPreformat.foreground": "#586069",
     "textSeparator.foreground": "#d1d5da",
     "titleBar.activeBackground": "#e5e9f0",
@@ -151,11 +151,69 @@
     "titleBar.border": "#e1e4e8",
     "titleBar.inactiveBackground": "#f6f8fa",
     "titleBar.inactiveForeground": "#6a737d",
-    "tree.indentGuidesStroke": "#e1e4e8",
-    "welcomePage.buttonBackground": "#f6f8fa",
-    "welcomePage.buttonHoverBackground": "#e1e4e8",
+    "tree.indentGuidesStroke": "#e1e4e8"
   },
   "tokenColors": [
+    {
+      "scope": [
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end"
+      ],
+      "settings": {
+        "foreground": "#81A1C1" // nord9 for quotes
+      }
+    },
+    {
+      "scope": "punctuation.separator.comma",
+      "settings": {
+        "foreground": "#81A1C1" // nord9 for commas
+      }
+    },
+    {
+      "scope": [
+        "markup.deleted.diff",
+        "markup.deleted.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#BF616A" // nord11 for deleted lines
+      }
+    },
+    {
+      "scope": [
+        "markup.inserted.diff",
+        "markup.inserted.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#A3BE8C" // nord14 for inserted lines
+      }
+    },
+    {
+      "scope": [
+        "markup.changed.diff",
+        "markup.changed.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#EBCB8B" // nord13 for changed lines
+      }
+    },
+    {
+      "scope": [
+        "markup.ignored.diff",
+        "markup.ignored.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#4C566A" // nord3 for ignored elements
+      }
+    },
+    {
+      "scope": [
+        "markup.untracked.diff",
+        "markup.untracked.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#5E81AC" // nord10 for untracked elements
+      }
+    }
     {
       "scope": [
         "comment",
@@ -481,12 +539,6 @@
       }
     },
     {
-      "scope": "comment, punctuation.definition.comment",
-      "settings": {
-        "foreground": "#748599"
-      }
-    },
-    {
       "scope": "punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array",
       "settings": {
         "foreground": "#0D7579"
@@ -751,8 +803,6 @@
         "meta.tag",
         "meta.type.annotation",
         "meta.type",
-        "punctuation.definition.string.begin",
-        "punctuation.definition.string.end",
         "punctuation.separator",
         "punctuation.separator.continuation",
         "punctuation.terminator",
