@@ -28,9 +28,9 @@
     "activityBarBadge.foreground": "#ECEFF4", // nord6: Polar Night
     "badge.background": "#81A1C1", // nord9: Frost
     "badge.foreground": "#5E81AC", // nord10: Frost
-    "breadcrumb.activeSelectionForeground": "#ECEFF4", // nord6: Polar Night
-    "breadcrumb.focusForeground": "#ECEFF4", // nord6: Polar Night
-    "breadcrumb.foreground": "#E5E9F0", // nord4: Snow Storm
+    "breadcrumb.activeSelectionForeground": "#EBCB8B", // nord13: Aurora
+    "breadcrumb.focusForeground": "#88C0D0", // nord8: Frost
+    "breadcrumb.foreground": "#8FBCBB", // nord7: Frost
     "breadcrumbPicker.background": "#2E3440", // nord0: Polar Night (dark background)
     "button.background": "#A3BE8C", // nord14: Aurora
     "button.foreground": "#2E3440", // nord0: Polar Night
