@@ -2,10 +2,10 @@
     "name": "nordern-light",
     "displayName": "Nordern Light",
     "description": "Nordern Light color theme",
-    "repository": "",
+    "repository": "https://github.com/yashas-vaidya/vscode-nord-light.git",
     "icon": "icon.png",
     "version": "0.1.1",
-    "publisher": "huytd",
+    "publisher": "yv",
     "engines": {
         "vscode": "^1.15.0"
     },
