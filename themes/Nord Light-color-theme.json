@@ -38,7 +38,7 @@
     "checkbox.background": "#2E3440", // nord0: Polar Night (dark background)
     "checkbox.border": "#D8DEE9", // nord4: Snow Storm
     "debugToolBar.background": "#ECEFF4", // nord6: Polar Night
-    "descriptionForeground": "#E5E9F0", // nord4: Snow Storm
+    "descriptionForeground": "#D08770", // nord12: Aurora
     "diffEditor.insertedTextBackground": "#A3BE8C22", // nord14: Aurora
     "diffEditor.removedTextBackground": "#BF616A22", // nord11: Aurora
     "dropdown.background": "#2E3440", // nord0: Polar Night (dark background)
@@ -118,8 +118,8 @@
     "settings.modifiedItemIndicator": "#2188ff",
     "sideBar.border": "#d8dee9",
     "sideBar.foreground": "#586069",
-    "sideBarSectionHeader.background": "#d8dee9",
-    "sideBarSectionHeader.border": "#e1e4e8",
+    "sideBarSectionHeader.background":"#81A1C1", // nord9: Frost
+    "sideBarSectionHeader.border":  "#3B4252", // nord1: Polar Night
     "sideBarSectionHeader.foreground": "#2f363d",
     "sideBarTitle.foreground": "#2f363d",
     "statusBar.border": "#e1e4e8",
@@ -213,7 +213,7 @@
       "settings": {
         "foreground": "#5E81AC" // nord10 for untracked elements
       }
-    }
+    },
     {
       "scope": [
         "comment",
