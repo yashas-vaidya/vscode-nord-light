@@ -9,7 +9,7 @@
     "tab.activeBackground": "#ECEFF4", // nord6 for active tab
     "tab.inactiveBackground": "#E5E9F0", // nord5 for inactive tabs to distinguish from active tab
     "tab.inactiveForeground": "#4C566A", // nord3 for readable text on inactive tabs
-    "editor.foreground": "#434C5E", // nord2 for darker text for better readability
+    "editor.foreground": "#2E3440", // nord0 for darker text for better readability
     "editorGroupHeader.tabsBackground": "#D8DEE9", // nord4 for tabs header
     "editorLineNumber.foreground": "#4C566A", // nord3 for contrast in line numbers
     "editor.lineHighlightBackground": "#BF616A", // nord11 for line highlight for bold emphasis
@@ -68,6 +68,7 @@
     "editorGutter.modifiedBackground": "#81A1C1", // nord9: Frost
     "editorLineNumber.activeForeground": "#3B4252", // nord1: Polar Night
     "editorOverviewRuler.border": "#ECEFF4", // nord6: Polar Night    
+    // still filling in Nord colors from here
     "editorWidget.background": "#f6f8fa",
     "errorForeground": "#cb2431",
     "focusBorder": "#2188ff",
@@ -216,12 +217,21 @@
     },
     {
       "scope": [
+        "markup.fenced_code.block",
+        "markup.inline.raw.string"
+      ],
+      "settings": {
+        "foreground": "#A3BE8C" // nord14 for code blocks & in-line string as code
+      }
+      },
+    {
+      "scope": [
         "comment",
         "punctuation.definition.comment",
         "string.comment"
       ],
       "settings": {
-        "foreground": "#6A737D"
+        "foreground": "#4C566A" // nord3 for comments
       }
     },
     {
@@ -394,9 +404,14 @@
       }
     },
     {
-      "scope": "punctuation.definition.list.begin.markdown",
+      "scope": [
+        "punctuation.definition.list.begin",
+        "punctuation.definition.quote.begin",
+        "punctuation.definition.metadata",
+        "markup.underline.link.markdown"
+      ],
       "settings": {
-        "foreground": "#E36209"
+        "foreground": "#8FBCBB" // Frost: nord7 for highlighting beginning of lists & links
       }
     },
     {
@@ -418,14 +433,14 @@
     {
       "scope": "markup.italic",
       "settings": {
-        "foreground": "#24292E",
+        "foreground": "#2e3440", // Polar: nord0 for emphasis
         "fontStyle": "italic"
       }
     },
     {
       "scope": "markup.bold",
       "settings": {
-        "foreground": "#24292E",
+        "foreground": "#2e3440", // Polar: nord0 for emphasis
         "fontStyle": "bold"
       }
     },
@@ -656,19 +671,13 @@
     {
       "scope": "string.other.link",
       "settings": {
-        "foreground": "#CB5C69"
+        "foreground": "#88C0D0" // Frost: nord8 for link text
       }
     },
     {
       "scope": "meta.link",
       "settings": {
         "foreground": "#FF9B39"
-      }
-    },
-    {
-      "scope": "markup.list",
-      "settings": {
-        "foreground": "#CB5C69"
       }
     },
     {
@@ -680,7 +689,7 @@
     {
       "scope": "meta.separator",
       "settings": {
-        "foreground": "#3B42527"
+        "foreground": "#B42527"
       }
     },
     {
@@ -714,9 +723,12 @@
       }
     },
     {
-      "scope": "punctuation.section.embedded, variable.interpolation",
+      "scope": [
+        "punctuation.section.embedded",
+        "variable.interpolation"
+      ],
       "settings": {
-        "foreground": "#3B42527"
+        "foreground": "#B42527"
       }
     },
     {
@@ -736,10 +748,6 @@
     },
     {
       "scope": [
-        "comment",
-        "comment.block",
-        "comment.block.documentation",
-        "comment.line",
         "constant",
         "constant.character",
         "constant.character.escape",
@@ -752,6 +760,14 @@
         "constant.regexp",
         "constant.rgb-value",
         "emphasis",
+        
+      ],
+      "settings": {
+        "foreground": "#B48EAD" // Aurora: nord15 for emphasis of many kinds
+      }
+    },
+    {
+      "scope": [
         "entity",
         "entity.name",
         "entity.name.class",
@@ -776,13 +792,11 @@
         "keyword.operator.logical",
         "keyword.other",
         "markup",
-        "markup.bold",
         "markup.changed",
         "markup.deleted",
         "markup.heading",
         "markup.inline.raw",
         "markup.inserted",
-        "markup.italic",
         "markup.list",
         "markup.list.numbered",
         "markup.list.unnumbered",
