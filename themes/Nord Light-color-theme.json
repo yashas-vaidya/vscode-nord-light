@@ -45,8 +45,8 @@
     "dropdown.border": "#E5E9F0", // nord4: Snow Storm
     "dropdown.foreground": "#4C566A", // nord3: Polar Night
     "dropdown.listBackground": "#ECEFF4", // nord6: Polar Night
-    "editor.findMatchBackground": "#EBCB8B", // nord13: Aurora
-    "editor.findMatchHighlightBackground": "#EBCB8B66", // nord13: Aurora
+    "editor.findMatchBackground": "#D8DEE9", // nord4: Snow Storm
+    "editor.findMatchHighlightBackground": "#ECEFF4", // nord6: Polar Night
     "editor.focusedStackFrameHighlightBackground": "#E5E9F0", // nord4: Snow Storm
     "editor.foldBackground": "#2E344022", // nord0: Polar Night (dark background)
     "editor.inactiveSelectionBackground": "#81A1C111", // nord9: Frost
@@ -57,7 +57,7 @@
     "editor.wordHighlightBorder": "#88C0D099", // nord8: Frost
     "editor.wordHighlightStrongBackground": "#81A1C100", // nord9: Frost
     "editor.wordHighlightStrongBorder": "#88C0D050", // nord8: Frost
-    "editorCursor.foreground": "#81A1C1", // nord9: Frost
+    "editorCursor.foreground": "#EBCB8B", // nord13: Aurora
     "editorGroup.border": "#E5E9F0", // nord4: Snow Storm
     "editorGroup.dropBackground": "#E5E9F0", // nord4: Snow Storm
     "editorGroup.emptyBackground": "#E5E9F0", // nord4: Snow Storm
